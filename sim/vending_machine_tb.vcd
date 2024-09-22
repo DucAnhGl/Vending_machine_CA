@@ -1,0 +1,268 @@
+$date
+	Sun Sep 15 21:25:47 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module vending_machine_tb $end
+$var wire 1 ! soda_o $end
+$var wire 3 " change_o [2:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ dime_i $end
+$var reg 1 % nickel_i $end
+$var reg 1 & quarter_i $end
+$var reg 1 ' rst $end
+$scope module vending_machine_top_tb $end
+$var wire 1 # clk_i $end
+$var wire 1 $ dime_i $end
+$var wire 1 % nickel_i $end
+$var wire 1 ( pressed $end
+$var wire 1 & quarter_i $end
+$var wire 1 ) reset $end
+$var wire 1 ' reset_ni $end
+$var wire 1 ! soda_o $end
+$var wire 5 * input_value [4:0] $end
+$var wire 1 + enable $end
+$var wire 1 , comp_reset $end
+$var wire 3 - change_o [2:0] $end
+$var wire 6 . accum_result [5:0] $end
+$scope module accumulator_inst $end
+$var wire 1 ) reset_ni $end
+$var wire 5 / in_i [4:0] $end
+$var wire 1 + enable_pi $end
+$var reg 6 0 result_o [5:0] $end
+$upscope $end
+$scope module comparator_20_inst $end
+$var wire 6 1 in_i [5:0] $end
+$var reg 3 2 change_o [2:0] $end
+$var reg 6 3 change_temp [5:0] $end
+$var reg 1 ! valid_o $end
+$upscope $end
+$scope module control_fsm_inst $end
+$var wire 1 # clk $end
+$var wire 1 ( pressed_i $end
+$var wire 1 ' reset_ni $end
+$var reg 1 + enable_o $end
+$var reg 1 4 nextstate $end
+$var reg 1 5 state $end
+$upscope $end
+$scope module input_decoder_inst $end
+$var wire 1 $ dime_i $end
+$var wire 1 % nickel_i $end
+$var wire 1 6 pressed_i $end
+$var wire 1 & quarter_i $end
+$var reg 5 7 value_o [4:0] $end
+$upscope $end
+$scope module register_inst $end
+$var wire 1 # clk $end
+$var wire 1 8 in_i $end
+$var reg 1 , out_o $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+18
+b0 7
+06
+05
+04
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+x,
+0+
+b0 *
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+b0 "
+0!
+$end
+#2
+x)
+1'
+#5
+1)
+1,
+1#
+#10
+0#
+#15
+1#
+#16
+14
+b1010 *
+b1010 /
+b1010 7
+1(
+16
+1$
+#20
+0#
+#25
+b1010 .
+b1010 0
+b1010 1
+1+
+15
+1#
+#26
+04
+b0 *
+b0 /
+b0 7
+0(
+06
+0$
+#30
+0#
+#35
+0+
+05
+1#
+#36
+14
+b1010 *
+b1010 /
+b1010 7
+1(
+16
+1$
+#40
+0#
+#45
+08
+1!
+b10100 .
+b10100 0
+b10100 1
+1+
+15
+1#
+#46
+04
+b0 *
+b0 /
+b0 7
+0(
+06
+0$
+#50
+0#
+#55
+18
+0!
+b0 .
+b0 0
+b0 1
+0+
+0)
+05
+0,
+1#
+#60
+0#
+#65
+1)
+1,
+1#
+#66
+14
+b11001 *
+b11001 /
+b11001 7
+1(
+16
+1&
+#70
+0#
+#75
+b1 "
+b1 -
+b1 2
+08
+b101 3
+1!
+b11001 .
+b11001 0
+b11001 1
+1+
+15
+1#
+#76
+04
+b0 *
+b0 /
+b0 7
+0(
+06
+0&
+#80
+0#
+#85
+b0 "
+b0 -
+b0 2
+18
+b0 3
+0!
+b0 .
+b0 0
+b0 1
+0+
+0)
+05
+0,
+1#
+#90
+0#
+#95
+1)
+1,
+1#
+#100
+0#
+#105
+1#
+#110
+0#
+#115
+1#
+#120
+0#
+#125
+1#
+#130
+0#
+#135
+1#
+#140
+0#
+#145
+1#
+#150
+0#
+#155
+1#
+#160
+0#
+#165
+1#
+#170
+0#
+#175
+1#
+#176

@@ -1,0 +1,10 @@
+
+
+../src/accumulator.sv
+../src/comparator_20.sv
+../src/input_decoder.sv
+../src/register.sv
+../src/control_fsm.sv
+../src/vending_machine_top.sv
+
+../tb/vending_machine_tb.sv
