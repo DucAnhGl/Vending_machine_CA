@@ -5,7 +5,6 @@ comp:
 
 sim:
 	vvp vending_machine_tb.vvp
-	gtkwave
 
 run:
-	make comp && make sim
+	make comp && make sim && (cd ../tb && ./checker.sh)
